@@ -1,7 +1,7 @@
 import logging, time,random
 logging.basicConfig(filename="sample.log", level=logging.INFO)
 try:     #Для проверки чилового значения n,k
-    f=int(input("Введите правильный верхний границу диапозона чисел "))
+    f=int(input("Введите верхний границу диапозона чисел "))
     logging.info(f'Пользователь ввёл верхнюю границу диапозона чисел: {f} -{time.ctime()}')
     k=int(input('Введите количество попыток '))
     logging.info(f'Пользователь ввёл количество попыток: {k} -{time.ctime()}')
